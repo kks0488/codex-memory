@@ -1,5 +1,7 @@
 # codex-memory MVP 코드 리뷰
 
+> 상태: 아래 HIGH/MEDIUM 항목(repo 경계, 트리거 멱등성, 인덱스, notify Zod 검증, 스키마 중복, `input-messages` 저장, JSON 필드 파싱)은 첫 공개 커밋에 반영됐습니다. 테스트 추가와 `since`/`tags`/`scope` 같은 도구 파라미터 확장은 아직 남아 있습니다.
+
 ## 핵심 Findings (심각도 순)
 
 ### [HIGH] `timeline`가 repo 경계를 무시해 타 프로젝트 데이터가 섞여 반환됨

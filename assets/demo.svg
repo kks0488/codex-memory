@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" role="img" aria-labelledby="t d">
+<title id="t">codex-memory terminal demo</title>
+<desc id="d">A Codex turn is stored by the notify hook, a lesson is saved as a pinned memory, and the MCP tools search, timeline, get_observations and __IMPORTANT bring it back. Output captured from a real local run with a throwaway database.</desc>
+<style>
+text{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:17px;white-space:pre}
+@keyframes a0{0%,1.05%{opacity:0}1.85%,93%{opacity:1}97%,100%{opacity:0}}.l0{opacity:0;animation:a0 19s linear infinite}@keyframes t0{0%,1.85%{transform:translateX(0)}11.74%,100%{transform:translateX(920px)}}.c0{animation:t0 19s linear infinite}@keyframes a1{0%,10.00%{opacity:0}10.80%,93%{opacity:1}97%,100%{opacity:0}}.l1{opacity:0;animation:a1 19s linear infinite}@keyframes a2{0%,15.79%{opacity:0}16.59%,93%{opacity:1}97%,100%{opacity:0}}.l2{opacity:0;animation:a2 19s linear infinite}@keyframes a3{0%,20.00%{opacity:0}20.80%,93%{opacity:1}97%,100%{opacity:0}}.l3{opacity:0;animation:a3 19s linear infinite}@keyframes a4{0%,26.32%{opacity:0}27.12%,93%{opacity:1}97%,100%{opacity:0}}.l4{opacity:0;animation:a4 19s linear infinite}@keyframes a5{0%,30.53%{opacity:0}31.33%,93%{opacity:1}97%,100%{opacity:0}}.l5{opacity:0;animation:a5 19s linear infinite}@keyframes a6{0%,32.63%{opacity:0}33.43%,93%{opacity:1}97%,100%{opacity:0}}.l6{opacity:0;animation:a6 19s linear infinite}@keyframes a7{0%,40.00%{opacity:0}40.80%,93%{opacity:1}97%,100%{opacity:0}}.l7{opacity:0;animation:a7 19s linear infinite}@keyframes a8{0%,44.21%{opacity:0}45.01%,93%{opacity:1}97%,100%{opacity:0}}.l8{opacity:0;animation:a8 19s linear infinite}@keyframes a9{0%,51.58%{opacity:0}52.38%,93%{opacity:1}97%,100%{opacity:0}}.l9{opacity:0;animation:a9 19s linear infinite}@keyframes a10{0%,55.79%{opacity:0}56.59%,93%{opacity:1}97%,100%{opacity:0}}.l10{opacity:0;animation:a10 19s linear infinite}@keyframes a11{0%,63.16%{opacity:0}63.96%,93%{opacity:1}97%,100%{opacity:0}}.l11{opacity:0;animation:a11 19s linear infinite}@keyframes a12{0%,67.89%{opacity:0}68.69%,93%{opacity:1}97%,100%{opacity:0}}.l12{opacity:0;animation:a12 19s linear infinite}
+@media (prefers-reduced-motion: reduce){[class^=l]{animation:none!important;opacity:1!important}[class^=c]{display:none}}
+</style>
+<rect width="920" height="500" rx="14" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="919" height="499" rx="14" fill="none" stroke="#30363d"/>
+<circle cx="26" cy="24" r="6" fill="#ff5f57"/><circle cx="46" cy="24" r="6" fill="#febc2e"/><circle cx="66" cy="24" r="6" fill="#28c840"/>
+<text x="460.0" y="29" fill="#8b949e" text-anchor="middle" style="font-size:14px">codex-memory · notify hook + MCP tools</text>
+<g class="l0"><text x="28" y="74" fill="#38bdf8" font-weight="700">›</text><text x="54" y="74" fill="#f0f6fc" font-weight="700">node dist/cli.js notify &#x27;{&quot;type&quot;:&quot;agent-turn-complete&quot;,…}&#x27;</text><rect class="c0" x="52" y="52" width="920" height="30" fill="#0d1117"/></g>
+<g class="l1"><text x="70" y="104" fill="#3fb950">{&quot;ok&quot;:true,&quot;observation_ids&quot;:[1]}</text></g>
+<g class="l2"><circle cx="34" cy="128" r="4.5" fill="#79c0ff"/><text x="54" y="134" fill="#e6edf3">save_memory  <tspan fill="#79c0ff">lesson · importance 4 · pinned</tspan></text></g>
+<g class="l3"><text x="70" y="164" fill="#8b949e">{&quot;memory_id&quot;:1}</text></g>
+<g class="l4"><circle cx="34" cy="188" r="4.5" fill="#79c0ff"/><text x="54" y="194" fill="#e6edf3">search  <tspan fill="#79c0ff">{&quot;query&quot;:&quot;checkout&quot;}</tspan></text></g>
+<g class="l5"><text x="70" y="224" fill="#8b949e">observations #1  Fixed flaky &gt;&gt;&gt;checkout&lt;&lt;&lt; test: mocked the payment clock</text></g>
+<g class="l6"><text x="70" y="254" fill="#8b949e">memories     #1  &gt;&gt;&gt;Checkout&lt;&lt;&lt; tests must not depend on wall-clock time.</text></g>
+<g class="l7"><circle cx="34" cy="278" r="4.5" fill="#79c0ff"/><text x="54" y="284" fill="#e6edf3">timeline  <tspan fill="#79c0ff">{&quot;anchor_id&quot;:1}</tspan></text></g>
+<g class="l8"><text x="70" y="314" fill="#8b949e">3 entries within ±30 min, same repo (acme/shop-api)</text></g>
+<g class="l9"><circle cx="34" cy="338" r="4.5" fill="#79c0ff"/><text x="54" y="344" fill="#e6edf3">get_observations  <tspan fill="#79c0ff">{&quot;ids&quot;:[1]}</tspan></text></g>
+<g class="l10"><text x="70" y="374" fill="#8b949e">thread t-01 · input: &quot;fix the flaky checkout test&quot;</text></g>
+<g class="l11"><circle cx="34" cy="398" r="4.5" fill="#79c0ff"/><text x="54" y="404" fill="#e6edf3">__IMPORTANT</text></g>
+<g class="l12"><rect x="60" y="413" width="824" height="29" rx="6" fill="#3fb950" fill-opacity="0.13" stroke="#3fb950" stroke-opacity="0.55"/><text x="70" y="434" fill="#3fb950" font-weight="700">Pinned: [1] Use fake timers in payment tests (importance: 4)</text></g>
+</svg>

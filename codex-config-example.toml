@@ -1,14 +1,14 @@
 # codex-memory Codex CLI integration example
 # Add the following to ~/.codex/config.toml
-
-# ── MCP Server Registration ──
-[mcp_servers.codex-memory]
-type = "stdio"
-command = "node"
-args = ["/home/kkaemo/projects/codex-memory/dist/server.js"]
+# Replace /path/to/codex-memory with the folder where you cloned and built this repo.
 
 # ── Notify Hook ──
-# Sends turn completion events to codex-memory for observation collection
-[notify]
+# Codex runs this command after each turn and appends the event JSON as the last argument.
+# `notify` is a top-level key, so keep it above any [table] section.
+notify = ["node", "/path/to/codex-memory/dist/cli.js", "notify"]
+
+# ── MCP Server Registration ──
+# Same result as: codex mcp add codex-memory -- node /path/to/codex-memory/dist/server.js
+[mcp_servers.codex-memory]
 command = "node"
-args = ["/home/kkaemo/projects/codex-memory/dist/cli.js", "notify"]
+args = ["/path/to/codex-memory/dist/server.js"]
