@@ -6,3 +6,4 @@ dist/
 .env
 .claude/
 archive/
+PROJECT_PORTS.md
